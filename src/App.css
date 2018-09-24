@@ -1,28 +1,192 @@
+.Border-container {
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Img-main {
+    width: 100%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Img-info {
+    width: 95%;
+    margin-top: 0.64rem;
 }
 
-.App-title {
-  font-size: 1.5em;
+.Course-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.33rem;
+    flex-direction: column;
+    background: #89177C;
+    padding-bottom: 1.5rem;
 }
 
-.App-intro {
-  font-size: large;
+.Course-title {
+    display: flex;
+    margin-top: 0.64rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 1.285rem;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Course-title-en {
+    display: flex;
+    font-family: PingFangSC-Light;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Course-cell-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 0.88rem;
+}
+
+.Course-cell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 43.872%;
+    background: #FFFFFF;
+    border: 0.027rem solid #FFFFFF;
+    border-radius: 0.27rem;
+}
+
+.Img-course {
+    width: 100%;
+}
+
+.Course-cell-title {
+    display: flex;
+    align-items: center;
+    margin-top: 0.535rem;
+    font-family: PingFangSC-Medium;
+    font-size: 0.93rem;
+    color: #7E2678;
+}
+
+.Img-course-icon {
+    width: 1.27rem;
+    height: 1.27rem;
+    margin-right: 0.28rem;
+}
+
+.Course-content {
+    display: flex;
+    margin: 0.33rem;
+    font-family: PingFangSC-Light;
+    font-size: 0.785rem;
+    color: #4A4A4A;
+}
+
+.Course-more {
+    display: flex;
+    width: 100%;
+    margin: 0.33rem;
+    font-family: PingFangSC-Light;
+    font-size: 0.785rem;
+    font-weight: bold;
+    color: #7E2678;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.Teaching-environment {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 1.43rem;
+}
+
+.Teaching-title {
+    display: flex;
+    margin-top: 0.85rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 1.285rem;
+    color: #89177C;
+    text-align: center;
+}
+
+.Teaching-title-en {
+    display: flex;
+    font-family: PingFangSC-Light;
+    font-size: 1rem;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.About-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 1.43rem;
+    background: #89177C;
+}
+
+.About-title {
+    display: flex;
+    margin-top: 0.85rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 1.285rem;
+    color: white;
+    text-align: center;
+}
+
+.About-title-en {
+    display: flex;
+    font-family: PingFangSC-Light;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.About-content-container {
+    display: flex;
+    margin-top: 0.5rem;
+    width: 92%;
+    background: #FFFFFF;
+    border: 0.027rem solid #FFFFFF;
+    border-radius: 0.27rem;
+}
+
+.About-content {
+    display: flex;
+    margin: 1rem;
+    font-family: PingFangSC-Light;
+    font-size: 0.85rem;
+    color: #4A4A4A;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.Address-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.Address {
+    font-family: PingFangSC-Thin;
+    font-size: 0.785rem;
+    color: #4A4A4A;
+    display: flex;
+    margin-top: 1.1rem;
+    margin-bottom: 0.9rem;
 }

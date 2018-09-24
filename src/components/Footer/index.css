@@ -1,0 +1,53 @@
+.Footer-space-holder {
+    height: 6.32rem;
+}
+
+.Footer {
+    background: #89177C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 1rem; */
+    left: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.phone-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 0.68rem;
+    padding-bottom: 0.68rem;
+    margin-left: 5rem;
+}
+
+.phone {
+    font-family: PingFangSC-Semibold;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+
+.img-long {
+    width: 4.57rem;
+    height: 6.32rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 0.27rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 1.07rem;
+    color: #960080;
+    padding: 0.35rem 0.785rem;
+    width: 4.3rem;
+    height: 1rem;
+    margin-right: 1rem;
+}

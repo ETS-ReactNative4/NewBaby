@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reach/router": "^1.2.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
+    "react-helmet": "^5.2.0",
+    "react-scripts": "1.1.5",
+    "react-swipeable-views": "^0.12.18"
   },
   "scripts": {
     "start": "react-scripts start",

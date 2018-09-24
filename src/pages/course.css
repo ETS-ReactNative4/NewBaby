@@ -1,0 +1,24 @@
+.img-main {
+    width: 100%;
+}
+
+.content {
+    font-family: PingFangSC-Light;
+    font-size: 0.85rem;
+    color: #000000;
+    margin: 0.75rem;
+}
+
+.p-node {
+    background: #91007F;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    padding-left: 0.35rem;
+    width: 18rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
