@@ -1,3 +1,7 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
 .Border-container {
 	border-style: solid;
 	border-width: 1px;
@@ -61,6 +65,7 @@
     background: #FFFFFF;
     border: 0.027rem solid #FFFFFF;
     border-radius: 0.27rem;
+    cursor: pointer;
 }
 
 .Img-course {

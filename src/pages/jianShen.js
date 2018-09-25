@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 // 健身课
 export default class JianShen extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>

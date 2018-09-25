@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 // 艺术课
 export default class YiShu extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>

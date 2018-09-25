@@ -31,7 +31,7 @@ class App extends Component {
                     <div className="Course-title">纽宝课程</div>
                     <div className="Course-title-en">Our Classes</div>
                     <div className="Course-cell-row">
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("ganTong"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("ganTong"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={ganTongIcon} className="Img-course-icon" alt="ganTong" />
@@ -44,7 +44,7 @@ class App extends Component {
                                 了解更多>
                             </div>
                         </div>
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("yinYue"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("yinYue"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={yinYueIcon} className="Img-course-icon" alt="yinYue" />
@@ -59,7 +59,7 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="Course-cell-row">
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("yiShu"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("yiShu"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={yiShuIcon} className="Img-course-icon" alt="yiShu" />
@@ -72,7 +72,7 @@ class App extends Component {
                                 了解更多>
                             </div>
                         </div>
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("chuYi"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("chuYi"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={chuYiIcon} className="Img-course-icon" alt="chuYi" />
@@ -87,7 +87,7 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="Course-cell-row">
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("leGao"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("leGao"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={leGaoIcon} className="Img-course-icon" alt="leGao" />
@@ -100,7 +100,7 @@ class App extends Component {
                                 了解更多>
                             </div>
                         </div>
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("jianShen"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("jianShen"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={jianShenIcon} className="Img-course-icon" alt="jianShen" />

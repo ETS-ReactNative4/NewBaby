@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 // 厨艺课
 export default class ChuYi extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>

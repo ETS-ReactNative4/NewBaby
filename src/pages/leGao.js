@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 // 乐高课
 export default class LeGao extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>

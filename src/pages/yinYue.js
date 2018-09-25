@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 // 音乐课
 export default class YinYue extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>

@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 // 感统课
 export default class GanTong extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>
