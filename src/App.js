@@ -23,6 +23,10 @@ import { Router, navigate } from '@reach/router';
 
 class App extends Component {
     render() {
+        // let { hash } = this.state;
+        console.log('========');
+        console.log(this);
+        console.log('========');
         return (
             <div className="App">
                 <img src={mainImg} className="Img-main" alt="main" />
