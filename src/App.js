@@ -24,15 +24,12 @@ import YiShu from './pages/yiShu';
 import ChuYi from './pages/chuYi';
 import LeGao from './pages/leGao';
 import JianShen from './pages/jianShen';
+import More from './pages/more';
 import Footer from './components/Footer';
 import { Router, navigate } from '@reach/router';
 
 class App extends Component {
     render() {
-        // let { hash } = this.state;
-        console.log('========');
-        console.log(this);
-        console.log('========');
         return (
             <div className="App">
                 <img src={mainImg} className="Img-main" alt="main" />
@@ -158,6 +155,7 @@ export default () => (
             <ChuYi path="/chuYi" />
             <LeGao path="/leGao" />
             <JianShen path="/jianShen" />
+            <More path="/more" />
         </Router>
         <Router>
             <App path="/" />

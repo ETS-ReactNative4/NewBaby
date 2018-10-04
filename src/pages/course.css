@@ -49,3 +49,20 @@
 。paragraph {
     margin-bottom: 1rem;
 }
+
+.more-btn {
+    background-color: rgb(226, 2, 126);
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+    padding: 0.2rem 0;
+    color: white;
+    font-family: PingFangSC-Light;
+    font-size: 1.25rem;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.more-btn-1 {
+    background-color: rgb(255, 129, 36);
+}

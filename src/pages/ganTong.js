@@ -3,7 +3,6 @@ import Footer from '../components/Footer';
 import './course.css';
 import mainImg from '../asset/ganTong_course.png';
 import mainImg2 from '../asset/gantongjiaoshi.png';
-import mainImg3 from '../asset/gantongshili.png';
 import mainImg4 from '../asset/gantong3.png';
 import mainImg5 from '../asset/erweima.png';
 import mainImg6 from '../asset/gantong0.png';
