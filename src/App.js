@@ -138,7 +138,7 @@ class App extends Component {
                 </div>
                 <div className="Address-container">
                     <div className="Address">悦美文化艺术咨询服务有限公司</div>
-                    <div className="Address">地址：贵池区同辉广场3层S3-201</div>
+                    <div className="Address">地址：池州市同晖城市广场三层S6-301</div>
                 </div>
                 <Footer />
             </div>
