@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.img2 {
+    width: 95%;
+    margin: 0 2.5%;
+}
+
 .content {
     font-family: PingFangSC-Light;
     font-size: 0.85rem;
@@ -10,7 +15,7 @@
 }
 
 .p-node {
-    background: #91007F;
+    /* background: #91007F;
     font-family: PingFangSC-Semibold;
     font-size: 0.85rem;
     color: #FFFFFF;
@@ -20,5 +25,27 @@
     display: flex;
     align-items: center;
     border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem; */
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+/* .xuxian {
+    width:50%;
+    height:0;
+    border-bottom:#ccc 1px dashed;
+    margin-top: 0.4rem;
+} */
+
+.bold-txt {
+    font-weight: bold;   
+}
+
+。paragraph {
+    margin-bottom: 1rem;
 }

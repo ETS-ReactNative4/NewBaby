@@ -3,6 +3,12 @@ import React, { Component } from 'react';
 import mainImg from './asset/main.png';
 import infoImg from './asset/info.png';
 import ganTongImg from './asset/ganTong.png';
+// import yinImg from './asset/yinYue.png';
+import sds from './asset/yinYue.png';
+import yiShuImg from './asset/yiShu.png';
+import chuYiImg from './asset/chuYi.png';
+import leGaoImg from './asset/legao.png';
+import jianShenImg from './asset/jianShen.png';
 import ganTongIcon from './asset/ganTong_icon.png';
 import yinYueIcon from './asset/yinYue_icon.png';
 import yiShuIcon from './asset/yiShu_icon.png';
@@ -35,7 +41,7 @@ class App extends Component {
                     <div className="Course-title">纽宝课程</div>
                     <div className="Course-title-en">Our Classes</div>
                     <div className="Course-cell-row">
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("ganTong"); }}>
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("ganTong"); }}>
                             <img src={ganTongImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={ganTongIcon} className="Img-course-icon" alt="ganTong" />
@@ -48,8 +54,8 @@ class App extends Component {
                                 了解更多>
                             </div>
                         </div>
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("yinYue"); }}>
-                            <img src={ganTongImg} className="Img-course" alt="ganTong" />
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("yinYue"); }}>
+                            <img src={sds} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={yinYueIcon} className="Img-course-icon" alt="yinYue" />
                                 音乐课(6个月-7岁)
@@ -63,8 +69,8 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="Course-cell-row">
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("yiShu"); }}>
-                            <img src={ganTongImg} className="Img-course" alt="ganTong" />
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("yiShu"); }}>
+                            <img src={yiShuImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={yiShuIcon} className="Img-course-icon" alt="yiShu" />
                                 艺术课(6个月-7岁)
@@ -76,8 +82,8 @@ class App extends Component {
                                 了解更多>
                             </div>
                         </div>
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("chuYi"); }}>
-                            <img src={ganTongImg} className="Img-course" alt="ganTong" />
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("chuYi"); }}>
+                            <img src={chuYiImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={chuYiIcon} className="Img-course-icon" alt="chuYi" />
                                 厨艺课(6个月-7岁)
@@ -91,8 +97,8 @@ class App extends Component {
                         </div>
                     </div>
                     <div className="Course-cell-row">
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("leGao"); }}>
-                            <img src={ganTongImg} className="Img-course" alt="ganTong" />
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("leGao"); }}>
+                            <img src={leGaoImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={leGaoIcon} className="Img-course-icon" alt="leGao" />
                                 乐高课(3岁-7岁)
@@ -104,8 +110,8 @@ class App extends Component {
                                 了解更多>
                             </div>
                         </div>
-                        <div className="Course-cell-container" onTouchEnd={() => { navigate("jianShen"); }}>
-                            <img src={ganTongImg} className="Img-course" alt="ganTong" />
+                        <div className="Course-cell-container" onClickCapture={() => { navigate("jianShen"); }}>
+                            <img src={jianShenImg} className="Img-course" alt="ganTong" />
                             <div className="Course-cell-title">
                                 <img src={jianShenIcon} className="Img-course-icon" alt="jianShen" />
                                 健身课(等待开放)
@@ -134,8 +140,8 @@ class App extends Component {
                     </div>
                 </div>
                 <div className="Address-container">
-                    <div className="Address">池州***教育科技有限公司</div>
-                    <div className="Address">地址：同辉广场3层S3-201</div>
+                    <div className="Address">悦美文化艺术咨询服务有限公司</div>
+                    <div className="Address">地址：贵池区同辉广场3层S3-201</div>
                 </div>
                 <Footer />
             </div>

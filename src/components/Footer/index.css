@@ -1,9 +1,16 @@
+a{
+    text-decoration:none;
+    color: white;
+    font-size: 0.9rem;
+}
+
 .Footer-space-holder {
     height: 6.32rem;
 }
 
 .Footer {
-    background: #89177C;
+    /* background: #89177C; */
+    background-color: #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +33,7 @@
 .phone {
     font-family: PingFangSC-Semibold;
     font-size: 0.9rem;
-    color: #FFFFFF;
+    color: #89177C;;
 }
 
 .img-long {
@@ -41,11 +48,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FFFFFF;
+    background: #89177C;;
     border-radius: 0.27rem;
     font-family: PingFangSC-Semibold;
     font-size: 1.07rem;
-    color: #960080;
+    color: black;
     padding: 0.35rem 0.785rem;
     width: 4.3rem;
     height: 1rem;

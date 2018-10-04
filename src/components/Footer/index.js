@@ -13,11 +13,11 @@ export default class Footer extends React.Component {
                             申请免费试听课
                         </div>
                         <div className="phone">
-                            咨询电话：40012345678
+                            咨询电话：15856614050
                         </div>
                     </div>
                     <div className="btn">
-                        立即申请
+                        <a href="https://jinshuju.net/f/b9Je8p" target="_blank" rel="noopener noreferrer">立即申请</a>
                     </div>
                     <img src={longImg} className="img-long" alt="long" />
                 </div>
